@@ -1,18 +1,19 @@
-= Vision: {project-name}
-Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+= Vision: {Cocktailversand}
+Nico Kroll <s85210@htw-dresden.de>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
 
 == Einführung
-Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Systems {project-system-name} zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das System {project-system-name} diese Bedarfe erfüllt, werden in der Use-Case und Supplementary Specification beschrieben.
+Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Systems Cocktailversand zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das System Cocktailversand diese Bedarfe erfüllt, werden in der Use-Case und Supplementary Specification beschrieben.
 
 === Zweck
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das System Cocktailversand, das von <Team> entwickelt wird. Das System wird es dem Barbetreiber erlauben, nicht nur Kunden vorort zu bedienen, sondern auch Kundschaft von etwas weiter entfernt. Außerdem erweitert man den Kundenkreis durch ein Syste zur individuellen erstellung von Cocktails.
+
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -26,16 +27,16 @@ Siehe <<#glossary, Glossar>>.
 
 === Fachliche Motivation
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
-
+Der Kunde, möchte seinen Kundenkreis durch die erstellung einer Firmenwebsite erweitern. Dort soll es möglich sein, 120 eigene Cocktailvarianten aus Alkoholen, Säften oder Toppings zu erstellen oder einen aus 100 Standartcocktails zu wählen. Beide Optionen können in drei Größen erworben werden. Außerdem soll ein Mitgliedschaftsystem integriert werden. Dadurch soll es dem Kunden ermöglicht werden, bei Geburtstagen extra Angebote zu versenden. Durch Mitgliedschaften soll außerdem, die Möglichkeit für Privatfeiern geschaffen werden. Und bei Beispielsweise, nicht-zahlung soll der Kunde die Möhlichkeit haben, die Mitglieder zu sperren. Beim kompletten Sytem soll auch sehr auf Kundenfreundliches Design geachtet werden.
 === Problem Statement
 //Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
 
 [cols="1,3"]
 |===
-| Das Problem | [beschreiben Sie das Problem]
-| betrifft | [die Stakeholder, die vom Problem betroffen sind]
-| die Auswirkung davon ist | [welche Auswirkungen hat das Problem?]
-| eine erfolgreiche Lösung wäre | Führen Sie einige wesentliche Vorteile einer erfolgreichen Lösung auf]
+| Das Problem | ein Cocktailshop, um einen Onlineshop zu erweitern
+| betrifft | Barbetreiber, Mitarbeiter, Kunden, Gesetzgeber, Programierer, Zulieferer, Bezahldienstleister
+| die Auswirkung davon ist | Kunden können aktuell nur vor Ort Cocktails erwerben und auch nur aus vorgefertigte Varianten wählen
+| eine erfolgreiche Lösung wäre | eigene Website mit Webshop (mit möglichkeit zur Cocktailkreirung) und Mitgliedschaften für aktionen
 |===
 
 ////

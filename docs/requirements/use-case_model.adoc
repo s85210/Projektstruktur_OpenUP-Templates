@@ -11,9 +11,23 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
-* *UC01*: ...
-* *UC02*: ...
-
+* *UC01*: Betselleinsicht(Mitarbeiter/Barbetreiber)
+* *UC02*: Statistiken anzeigen(Barbetreiber)
+* *UC03*: Bestellungen stonieren (Kunde)
+* *UC04*: Cocktails zusammenstellen (Kunde)
+* *UC05*: Kundenmitgliedschaft (Kunde)
+* *UC06*: Bestellstatus (Mitarbeiter)
+* *UC07*: Veranstaltungen planen (Kunde)
+* *UC08*: Warenkorb einsehen (Kunde)
+* *UC09*: Kundensperrung (Mitarbeiter)
+* *UC10*: Bestellung aufgaben (Kunde)
+* *UC11*: Katalog anzeigen (Kunde)
+* *UC1*: Produkte suchen (Kunde)
+* *UC1*: Katalog pflegen (Barbetreiber)
+* *UC1*: 
+* *UC1*:
+* *UC1*:
+* *UC1*:
 
 == Use Case Diagramm
 // ...
