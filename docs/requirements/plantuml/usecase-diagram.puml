@@ -1,0 +1,46 @@
+@startuml example-usecase-diagram
+left to right direction
+
+' skin parameters for usecase with special stereotype
+skinparam usecase<<unspezifiziert>> {
+  BackgroundColor #eee
+  BorderColor #gray
+  StereotypeFontColor #gray
+  StereotypeFontSize 10
+}
+
+actor Ladenbesitzer
+actor Kunde
+actor Mitarbeiter
+
+rectangle "Cocktailversand Website" {
+  usecase "UC01\nBetselleinsicht" as uc01
+  usecase "UC02\nStatistiken anzeigen" as uc02
+  usecase "UC03\nBestellungen stonieren" as uc03
+  usecase "UC04\nKundenmitgliedschaft anlegen" as uc04
+  usecase "UC05\nVerkaufszahlen einsehen" as uc05
+  usecase "UC07\nBestellung aufgeben" as uc07
+  usecase "UC08\nKundedaten bearbeiten" as uc08
+  usecase "UC09\nKundedaten erfassen" as uc09
+
+' single line:
+  'usecase "UC05\nAnmeldedaten erfassen" as uc05
+  ' multiple lines:
+ ' usecase uc05 as "UC05
+ ' Anmeldedaten erfassen"
+}
+
+Ladenbesitzer -- uc01
+Mitarbeiter -- uc01
+Ladenbesitzer -- uc02
+Kunde -- uc03
+Kunde -- uc04
+Ladenbesitzer -- uc05
+Kunde -- uc07
+Kunde -- uc08
+
+uc04 .down.> uc09 : include
+uc07 .down.> uc09 : include
+uc08 .down.> uc09 : include
+
+@enduml
